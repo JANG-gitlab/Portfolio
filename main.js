@@ -319,14 +319,14 @@ document.addEventListener('mousemove', e => {
    EFFET 4 — CURSOR TRAIL (traîne de miniatures de projets)
 ═══════════════════════════════════════════════════════════════ */
 const trailSrcs = [
-  '../portfolio/assets/scraped/a20a3c03-620d-4ac3-bd50-97330377a96f_rw_1920.jpg',
-  '../portfolio/assets/scraped/6014510e-9595-4aad-8c5c-148e1486ed44_rw_1920.png',
-  '../portfolio/assets/scraped/8731b2e5-e74b-48d5-b605-e5542ffae801_rw_1920.jpg',
-  '../portfolio/assets/scraped/8ab0d47c-a4e8-4c18-b064-2578a50345fc_rw_1920.jpg',
-  '../portfolio/assets/scraped/94b41fe2-23c7-46d9-badb-9b43c34af7a2_rw_1200.png',
-  '../portfolio/assets/branding/mmirage-affiche-principale.png',
-  '../portfolio/assets/branding/sako-mockup-3d.png',
-  '../portfolio/assets/scraped/d628991c-bb6e-4e64-90c7-9e15f6a5f15f_rw_600.png',
+  'assets/scraped/a20a3c03-620d-4ac3-bd50-97330377a96f_rw_1920.jpg',
+  'assets/scraped/6014510e-9595-4aad-8c5c-148e1486ed44_rw_1920.png',
+  'assets/scraped/8731b2e5-e74b-48d5-b605-e5542ffae801_rw_1920.jpg',
+  'assets/scraped/8ab0d47c-a4e8-4c18-b064-2578a50345fc_rw_1920.jpg',
+  'assets/scraped/94b41fe2-23c7-46d9-badb-9b43c34af7a2_rw_1200.png',
+  'assets/branding/mmirage-affiche-principale.png',
+  'assets/branding/sako-mockup-3d.png',
+  'assets/scraped/d628991c-bb6e-4e64-90c7-9e15f6a5f15f_rw_600.png',
 ];
 let trailIdx = 0, lastTrailTime = 0, prevX = 0, prevY = 0;
 
